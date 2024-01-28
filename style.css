@@ -1,9 +1,8 @@
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e35183;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant and modern font */
+    background-color: #9a9cff; /* Soft blue background */
 }
 
 .container {
@@ -14,11 +13,12 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    color: #574b90; /* Dark lilac color for text */
 }
 
 .container .title {
     font-size: 35px;
-    color: white;
+    color: #ffffff; /* White color for titles to stand out */
 }
 
 .container .buttons {
@@ -30,15 +30,16 @@ body {
 .container .buttons .btn {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #7f0000;
+    background-color: #7c4dff; /* Vibrant lilac color for buttons */
     color: white;
     border: none;
     border-radius: 3px;
     cursor: pointer; /* Add cursor pointer for better UX */
 }
 
-/* If you need specific styling for #btnno, you can uncomment this
+/* Specific styles for the 'No' button, if needed
 .container .buttons>#btnno {
-    margin-left: 70px; /* This will add a margin to the left of the specific button */
+    margin-left: 70px;
 }
 */
+
