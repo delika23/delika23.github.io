@@ -1,45 +1,38 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant and modern font */
-    background-color: #9a9cff; /* Soft blue background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9a9cff;
 }
 
 .container {
     display: flex;
-    position: relative; /* Changed from absolute to relative for better control */
+    position: relative;
     width: 100%;
     height: 100%;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    color: #574b90; /* Dark lilac color for text */
+    color: #574b90;
 }
 
 .container .title {
     font-size: 35px;
-    color: #ffffff; /* White color for titles to stand out */
+    color: #ffffff;
 }
 
 .container .buttons {
-    display: flex; /* Add flex to align buttons */
-    gap: 20px; /* Add gap between buttons */
+    display: flex;
+    gap: 20px;
     margin-top: 50px;
 }
 
 .container .buttons .btn {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #7c4dff; /* Vibrant lilac color for buttons */
+    background-color: #7c4dff;
     color: white;
     border: none;
     border-radius: 3px;
-    cursor: pointer; /* Add cursor pointer for better UX */
+    cursor: pointer;
 }
-
-/* Specific styles for the 'No' button, if needed
-.container .buttons>#btnno {
-    margin-left: 70px;
-}
-*/
-
